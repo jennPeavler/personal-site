@@ -88,4 +88,10 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  outline: none;
+}
+
+.circle-images:hover {
+  width: 205px;
+  height: 205px;
 }
