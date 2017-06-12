@@ -11,7 +11,7 @@ return (
           <input type='image' id='sme-img' className='circle-images' src={require('../../assets/images/Family/jenn.jpg')} />
         </Link>
       </div>
-      <p id='intro'>My life is beautiful.  It always has been.  Or so it seemed to me.  Every scene I see is full of lucious greens and blues and yellows.  Sadness and happiness are important.  And so is confusion.</p>
+      <p id='intro'>My life is beautiful.  It always has been.  Or so it seems to me.  Every scene I see is full of lucious greens and blues and yellows.  Sadness and happiness are important.  And so is confusion.</p>
       <div className='section1-div' id='div1-2'>
         <Link to='/dragon'>
           <input type='image' className='circle-images' id='dragon-img' src={require('../../assets/images/Family/dragon.jpg')} />

@@ -1,13 +1,14 @@
-#section3 {
+#projects {
   background: #DFDCDF;
   height: 650px;
   padding-top: 10%;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/Projects/background.jpg);
+  display: flex;
 }
 
-#div3-1 {
+#projects-box {
   width: 40%;
-  height: 60%;
+  height: 80%;
   background: #2E94C2;
   display: flex;
   align-items: center;
@@ -15,7 +16,57 @@
   flex-direction: column;
 }
 
-#section3-content {
-  width: 60%;
+#project-summary {
+  width: 80%;
   text-align: center;
+  color: #534250;
+  font-weight: bold;
+  margin-top: -4%;
+}
+
+#project-badge {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+#project-links {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+#link-box {
+  margin-top: -25px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #D13896;
+  border-radius: 4px;
+  padding: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+}
+
+.p-links {
+  text-decoration: none;
+  color: #534250;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+#last-link {
+  margin-bottom: 0px;
+}
+
+.p-links:hover {
+  font-weight: bold;
+  letter-spacing: none;
 }
