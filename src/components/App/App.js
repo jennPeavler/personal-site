@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom'
 
-import { Family } from '../Family/Family'
-import { About } from '../About/About'
-import { Projects } from '../Projects/Projects'
-import { Section4 } from '../Section4/Section4'
-import { Section5 } from '../Section5/Section5'
+import { MainWrapper } from '../MainWrapper/MainWrapper'
+import { Me } from '../Me/Me'
+import { Dragon } from '../Dragon/Dragon'
+import { Lullaby } from '../Lullaby/Lullaby'
+import { Dexter } from '../Dexter/Dexter'
 import '../../assets/styles/App.css';
 
 class App extends Component {
+
   render() {
     return (
       <main id='app-wrap'>
-        <Family />
-        <About />
-        <Projects />
-        <Section4 />
-        <Section5 />
+        <Switch>
+          <Route path='/me' component={Me} />
+          <Route path='/dragon' component={Dragon} />
+          <Route path='/lullaby' component={Lullaby} />
+          <Route path='/dexter' component={Dexter} />
+          <Route path='/' component={MainWrapper} />
+        </Switch>
       </main>
     );
   }
