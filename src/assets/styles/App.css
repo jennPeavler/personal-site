@@ -1,0 +1,23 @@
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+@import './Family.css';
+@import './About.css';
+@import './Projects.css';
+@import './Section4.css';
+@import './Section5.css';
+
+body,
+html,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arimo', sans-serif;
+}
+
+
+
+h2 {
+  text-align: center;
+  color: #534250;
+}
