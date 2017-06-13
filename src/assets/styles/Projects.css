@@ -1,5 +1,5 @@
 #projects {
-  background: #DFDCDF;
+  background: #FEFAE8;
   height: 650px;
   padding-top: 10%;
   background-image: url(../images/Projects/background.jpg);
@@ -24,34 +24,81 @@
   margin-top: -4%;
 }
 
-#project-badge {
+.project-badge {
   width: 300px;
   height: 350px;
   position: absolute;
   margin-top: 20px;
 }
 
-#project-links {
-  margin-left: 25%;
+#badge-2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+#badge-3 {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+}
+
+#project-links-1 {
+  margin-left: 50%;
+  margin-top: -10%;
   display: flex;
   flex-direction: column;
   height: 80%;
   justify-content: center;
   align-items: center;
   width: 200px;
+  position: absolute;
 }
 
-#link-box {
+#project-links-2 {
+  margin-left: 63%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  position: absolute;
+}
+
+#project-links-3 {
+  margin-left: 75%;
+  margin-top: -10%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  position: absolute;
+}
+
+.link-box {
   margin-top: -25px;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  border: 5px solid #D13896;
+  border: 1px dashed #D13896;
   border-radius: 4px;
   padding: 10px 0;
   justify-content: space-around;
   align-items: center;
   width: 120px;
+}
+
+.link-box2 {
+  border: 2px solid #FEFAE8;
+  border-radius: 25px;
+}
+
+.link-box3 {
+  border: none;
 }
 
 .p-links {
@@ -62,8 +109,16 @@
   z-index: 1;
 }
 
-#last-link {
+.links-3 {
+  color: #FEFAE8;
+}
+
+.last-link {
   margin-bottom: 0px;
+}
+
+.first-link {
+  margin-top: 5px;
 }
 
 .p-links:hover {

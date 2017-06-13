@@ -16,12 +16,28 @@ export const Projects = () => {
           <p>Please enjoy.</p>
         </article>
       </div>
-      <div id='project-links'>
-        <img id='project-badge' src={require('../../assets/images/Projects/project-badge.svg')} />
-        <div id='link-box'>
-          <a className='p-links' target='blank' href='https://i-like-star-wars.herokuapp.com/'>SWApi Box</a>
+      <div id='project-links-1'>
+        <img className='project-badge' src={require('../../assets/images/Projects/project-badge.svg')} />
+        <div className='link-box'>
+          <a className='p-links first-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>SWApi Box</a>
           <a className='p-links' target='blank' href='https://jennpeavler.github.io/gameTime/'>Breakout</a>
-          <a id='last-link' target='blank' className='p-links' href='https://i-like-star-wars.herokuapp.com/'>PinShow</a>
+          <a className='p-links last-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>PinShow</a>
+        </div>
+      </div>
+      <div id='project-links-2'>
+        <img className='project-badge' id='badge-2' src={require('../../assets/images/Projects/project-badge2.svg')} />
+        <div className='link-box link-box2'>
+          <a className='p-links first-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>SWApi Box</a>
+          <a className='p-links' target='blank' href='https://jennpeavler.github.io/gameTime/'>Breakout</a>
+          <a className='p-links last-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>PinShow</a>
+        </div>
+      </div>
+      <div id='project-links-3'>
+        <img className='project-badge' id='badge-3' src={require('../../assets/images/Projects/project-badge4.svg')} />
+        <div className='link-box link-box3'>
+          <a className='p-links first-link links-3' target='blank' href='https://i-like-star-wars.herokuapp.com/'>static kitty</a>
+          <a className='p-links links-3' target='blank' href='https://jennpeavler.github.io/gameTime/'>static cat</a>
+          <a className='p-links last-link links-3' target='blank' href='https://i-like-star-wars.herokuapp.com/'>static meow</a>
         </div>
       </div>
     </section>
