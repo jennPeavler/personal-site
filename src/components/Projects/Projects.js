@@ -20,7 +20,7 @@ export const Projects = () => {
         <img id='project-badge' src={require('../../assets/images/Projects/project-badge.svg')} />
         <div id='link-box'>
           <a className='p-links' target='blank' href='https://i-like-star-wars.herokuapp.com/'>SWApi Box</a>
-          <a className='p-links' target='blank' href='https://i-like-star-wars.herokuapp.com/'>Breakout</a>
+          <a className='p-links' target='blank' href='https://jennpeavler.github.io/gameTime/'>Breakout</a>
           <a id='last-link' target='blank' className='p-links' href='https://i-like-star-wars.herokuapp.com/'>PinShow</a>
         </div>
       </div>
