@@ -93,8 +93,9 @@
 }
 
 .link-box2 {
-  border: 2px solid #FEFAE8;
+  border: 1px solid #2E94C2;
   border-radius: 25px;
+  width: 150px;
 }
 
 .link-box3 {
@@ -114,7 +115,7 @@
 }
 
 .last-link {
-  margin-bottom: 0px;
+  margin-bottom: 4px;
 }
 
 .first-link {
