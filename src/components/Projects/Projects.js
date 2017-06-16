@@ -21,7 +21,7 @@ export const Projects = () => {
         <div className='link-box'>
           <a className='p-links first-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>SWApi Box</a>
           <a className='p-links' target='blank' href='https://jennpeavler.github.io/gameTime/'>Breakout</a>
-          <a className='p-links last-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>PinShow</a>
+          <a className='p-links last-link' target='blank' href='https://show-me-the-pin.herokuapp.com/'>PinShow</a>
         </div>
       </div>
       <div id='project-links-2'>
