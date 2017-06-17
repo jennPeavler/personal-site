@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 export const Family = () => {
 return (
     <section id='section1'>
-      <h1 id='hi'>Hello I am sme</h1>
+      <h1 id='hi'>Hello I am <span className='bigBold'>Jenn Peavler</span></h1>
       <div className='section1-div' id='div1-1'>
         <h2>Come with me on a journey.</h2>
         <Link to='/me'>
           <input type='image' id='sme-img' className='circle-images' src={require('../../assets/images/Family/jenn.jpg')} />
         </Link>
       </div>
-      <p id='intro'>My life is beautiful.  It always has been.  Or so it seems to me.  Every scene I see is full of lucious greens and blues and yellows.  Sadness and happiness are important.  And so is confusion.</p>
+      <p id='intro'><span className='bigBold'>Family</span> is very important to me so to show a bit of my creative side, I have made bios inspired by me and my family.  Click on the images below for a bit of silliness and to get to know me and my family!  The bio pages are static, but they are still fun to look at and read.</p>
       <div className='section1-div' id='div1-2'>
         <Link to='/dragon'>
           <input type='image' className='circle-images' id='dragon-img' src={require('../../assets/images/Family/dragon.jpg')} />
