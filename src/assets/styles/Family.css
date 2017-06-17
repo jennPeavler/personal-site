@@ -1,13 +1,18 @@
 #hi {
-  font-size: 32px;
+  font-size: 24px;
   display: inline-block;
   /*width: 20%;*/
   float: left;
   writing-mode: tb-rl;
   transform: rotate(180deg);
   color: #FEFAE8;
-  margin-top: 15%;
+  margin-top: 11%;
   padding-right: 2%;
+}
+
+.bigBold {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #section1 {

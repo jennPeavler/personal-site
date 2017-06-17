@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+#dragon-bg {
+  background: #FEE0AE;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#dragon-wrap {
+  background: #FFF5E6;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  padding-top: 2%;
+  margin-left: 2%;
+}
+.nav-link {
+  display: inline;
+  color: #D3782E;
+  padding: 0 2%;
+  margin-left: 2%;
+}
+
+.nav-link:hover {
+  color: #F05E6C;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#about {
+  color: #F05E6C;
+  cursor: default;
+  font-weight: bold;
+}
+
+#title-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#dragon-name {
+  color: #F05E6C;
+  font-size: 2em;
+  align-self: center;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  letter-spacing: 2px;
+}
+
+#title {
+  width: 85%;
+  color: #D3782E;
+  font-size: 5em;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #F05E6C;
+  letter-spacing: 2px;
+}
+
+#dragon-pic {
+  height: 150px;
+  width: 125px;
+  border-radius: 10%;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#welcome {
+  width: 50%;
+  padding-left: 5%;
+}
+
+#profile {
+  width: 40%;
+  margin-top: 2.5%
+}
+
+#demands {
+  display: flex;
+}
+
+#welcome p {
+  margin-bottom: 20px;
+  color: #4C4C4C;
+}
+
+#welcome h3 {
+  color: #4C4C4C;
+  font-weight: bold;
+}
+
+#profile p {
+  padding-left: 4%;
+  padding-right: 4%;
+  color: #4C4C4C;
+  margin-bottom: 5px;
+}
+
+#social-media {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cat-media {
+  height: 45px;
+  width: 45px;
+}
+
+.bg1 {
+  background: #F05E6C;
+}
+
+.bg2 {
+  background: #FA6F15;
+}
+
+.bg3 {
+  background: #83343B;
+}
+
+.bg4 {
+  background: #D3782E;
+}
+
+.media-bg {
+  padding: 1%;
+  border-radius: 50%;
+}

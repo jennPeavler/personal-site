@@ -6,6 +6,7 @@
 @import './Projects.css';
 @import './Section4.css';
 @import './Section5.css';
+@import './Dragon.css';
 
 body,
 html,
@@ -20,4 +21,8 @@ p {
 h2 {
   text-align: center;
   color: #534250;
+}
+
+.home-link {
+  text-decoration: none;
 }
