@@ -50,6 +50,9 @@ export const Dragon = () => {
             </div>
           </article>
         </main>
+        {/* <footer>
+          <img id='running-kitty' src={'http://www.animatedimages.org/data/media/209/animated-cat-image-0072.gif'} />
+        </footer> */}
       </section>
     </section>
   )
