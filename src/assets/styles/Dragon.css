@@ -138,3 +138,18 @@ main {
   padding: 1%;
   border-radius: 50%;
 }
+
+/*#running-kitty {
+  height: 100px;
+  width: 150px;
+  animation: runningKitty 2s infinite;
+}
+
+@keyframes runningKitty {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}*/
