@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+
+#dexter-wrap {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+#dexter-bio {
+  width: 55%;
+  margin-top: 8%;
+  /*text-align: center;*/
+  padding: 2%;
+  margin-left: 10%;
+}
+
+#dexter-title {
+  text-align: center;
+  color: #808080;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+#dexter-subtitle {
+  margin: -2% 5% 3%;
+  color: #689F4D;
+  font-weight: bold;
+}
+
+#pink {
+  color: #E34E71;
+}
+
+#dexter-info {
+  display: flex;
+  justify-content: space-around;
+  color: #808080;
+}
+
+#dexter-info p {
+  width: 40%;
+}
+
+#dexter-doghouse {
+  width: 20%;
+  margin-top: 15%;
+}
+
+#dexter-home {
+  text-decoration: none;
+}
+
+#dexter-home-btn {
+  color: #689F4D;
+  margin-left: 25%;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#dexter-home-btn:hover {
+  color: #E34E71;
+}
