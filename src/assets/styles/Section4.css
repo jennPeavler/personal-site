@@ -1,5 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
 #section4 {
   background: #FEFAE8;
   width: 100%;
   height: 650px;
+}
+
+#section4-title {
+  font-family: 'Leckerli One', cursive;
+  transform: rotate(-30deg);
+  font-size: 4em;
+  width: 20%;
+  text-align: center;
+  color: #D13896;
+  text-shadow: 2px 2px #534250;
+}
+
+#section4-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#github-img {
+  width: 150px;
+  height: 130px;
+  float: left;
+}
+
+#github-list {
+  list-style: none;
+  line-height: 1.8em;
+  float: right;
+}
+
+#github-list a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #534250;
+}
+
+#github-list a:hover {
+  text-decoration: underline;
+  color: #D13896;
+}
+
+#github {
+  display: flex;
+  align-items: center;
+}
+
+#linkedin-img {
+  height: 100px;
+  width: auto;
+}
+
+#resume-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 28%;
+  margin-top: -8%;
+}
+
+#resume-link p {
+  color: #A7E668;
+  font-weight: bold;
+  margin-top: -20%;
+}
+
+#email-img {
+  margin-left: 25px;
 }
