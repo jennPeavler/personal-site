@@ -23,12 +23,14 @@ nav {
   color: #D3782E;
   padding: 0 2%;
   margin-left: 2%;
+  letter-spacing: 1px;
 }
 
-.nav-link:hover {
+#dragon-home:hover {
   color: #F05E6C;
   cursor: pointer;
   font-weight: bold;
+  letter-spacing: 0.3px;
 }
 
 #about {
