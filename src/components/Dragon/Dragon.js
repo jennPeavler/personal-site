@@ -8,7 +8,7 @@ export const Dragon = () => {
         <header>
           <nav>
             <Link className='home-link' to='/'>
-              <p className='nav-link'>home</p>
+              <p id='dragon-home' className='nav-link'>home</p>
             </Link>
             <p id='about' className='nav-link'>about</p>
           </nav>
