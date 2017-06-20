@@ -28,8 +28,8 @@ export const Projects = () => {
         <img className='project-badge' id='badge-2' src={require('../../assets/images/Projects/project-badge2.svg')} />
         <div className='link-box link-box2'>
           <a className='p-links first-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>Movie Tracker</a>
-          <a className='p-links' target='blank' href='https://jennpeavler.github.io/gameTime/'>Weatherly</a>
-          <a className='p-links last-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>Health Assist</a>
+          <a className='p-links' target='blank' href='https://jenn-peavler-weatherly.herokuapp.com/'>Weatherly</a>
+          <a className='p-links last-link' target='blank' href='https://healthassist.herokuapp.com/'>Health Assist</a>
         </div>
       </div>
       <div id='project-links-3'>
