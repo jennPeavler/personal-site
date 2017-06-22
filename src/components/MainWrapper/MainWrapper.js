@@ -4,7 +4,7 @@ import { Family } from '../Family/Family'
 import { About } from '../About/About'
 import { Projects } from '../Projects/Projects'
 import { SocialMedia } from '../SocialMedia/SocialMedia'
-import { Section5 } from '../Section5/Section5'
+import { FunStuff } from '../FunStuff/FunStuff'
 
 export const MainWrapper = () => {
   return (
@@ -13,7 +13,7 @@ export const MainWrapper = () => {
       <About />
       <Projects />
       <SocialMedia />
-      <Section5 />
+      <FunStuff />
     </section>
   )
 }
