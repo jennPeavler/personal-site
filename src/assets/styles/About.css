@@ -7,10 +7,10 @@
 .synopsis {
   float: left;
   clear: both;
-  width: 40%;
+  width: 35%;
   position: absolute;
-  margin-top: 10%;
-  padding-left: 9%;
+  margin-top: 7%;
+  padding-left: 12%;
 }
 
 #synopsis-content {

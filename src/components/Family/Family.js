@@ -21,7 +21,8 @@ return (
         <Link to='/lullaby'>
           <input type='image' className='circle-images' id='lullaby-img' src={require('../../assets/images/Family/lullaby.jpg')} />
         </Link>
-        <p id='summary'>I like pinball.  The first time that I played was in a dank, dark bar.  The first time I tried I didn't get to far.</p>
+        <img className='quote-swirl' src={require('../../assets/images/Family/quote-swirl.svg')} />
+        <p id='quote'>“I have only one heart, I will not hide it from the world”</p>
       </div>
       <div className='section1-div' id='div1-4'>
         <Link to='/dexter'>
