@@ -3,7 +3,7 @@ import React from 'react'
 import { Family } from '../Family/Family'
 import { About } from '../About/About'
 import { Projects } from '../Projects/Projects'
-import { Section4 } from '../Section4/Section4'
+import { SocialMedia } from '../SocialMedia/SocialMedia'
 import { Section5 } from '../Section5/Section5'
 
 export const MainWrapper = () => {
@@ -12,7 +12,7 @@ export const MainWrapper = () => {
       <Family />
       <About />
       <Projects />
-      <Section4 />
+      <SocialMedia />
       <Section5 />
     </section>
   )
