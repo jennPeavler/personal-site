@@ -57,7 +57,7 @@ export const Projects = () => {
                   <p>Health Assist</p>
                 </td>
                 <td className='col-2'>
-                  <p>{'<Angular2, Express, SQL>'}</p>
+                  <p>{'<Angular, Express, SQL>'}</p>
                 </td>
               </tr>
               <tr>
@@ -82,7 +82,7 @@ export const Projects = () => {
           <p className='center'>•</p>
           <p><span className='bold'>Breakout:</span>  I built this app with one other developer.  This is a take on the classic breakout/arcanoid game.  Through building this app, I learned a lot about file structure and separating logic into different components.  This makes the app more manageable and also easier to test.  I also learned how to work with HTML Canvas in order to draw shapes on the page as well as make animations.</p>
           <p className='center'>•</p>
-          <p><span className='bold'>Health Assist:</span>  I built this project with my partner as a side project between class projects at Turing.  The app allows a user to log health information and view the information in a line chart.  Through building this project, I learned to use Angular2 and Canvas JS.  I became more familiar with integrating an Express backend and using SQL to manage user data.  I also learned that it is possible and very fun to have side projects!</p>
+          <p><span className='bold'>Health Assist:</span>  I built this project with my partner as a side project between class projects at Turing.  The app allows a user to log health information and view the information in a line chart.  Through building this project, I learned to use Angular and Canvas JS.  I became more familiar with integrating an Express backend and using SQL to manage user data.  I also learned that it is possible and very fun to have side projects!</p>
           <p className='center'>•</p>
           <p><span className='bold'>Static Comps:</span>  These projects were solo projects.  I was given static comps and was told to duplicate the comps using only HTML and CSS.  I was not given any assets and was told that I had creative license with the icons, font and color pallete.  The site had to uphold the integrity of the comp layout and had to be responsive.  I really enjoyed re-creating these comps and it was nice to let my creativity and attention to detail shine.  I also became very proficient at aquiring and manipulating images and icons.</p>
         </article>
