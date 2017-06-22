@@ -8,7 +8,7 @@ export const SocialMedia = () => {
         <section id='social-media-links'>
           <a href='https://www.linkedin.com/in/jennifer-peavler-17558310/' target='blank'><img id='linkedin-img' src={require('../../assets/images/SocialMedia/linkedin.png')} /></a>
           <a href='mailto:jenn.peavler@gmail.com' target='blank'><img id='email-img' src={require('../../assets/images/SocialMedia/email.svg')} /></a>
-          <a id='resume-link' href='https://drive.google.com/open?id=0B3ItQVupdvvgaUtGenVvMFZ4TWM' target='blank'>
+          <a id='resume-link' href='https://drive.google.com/open?id=0B3ItQVupdvvgajRxUnJnT3NtZ1E' target='blank'>
           <img id='linkedin-img' src={require('../../assets/images/SocialMedia/resume.svg')} />
           <p>resume</p>
         </a>
