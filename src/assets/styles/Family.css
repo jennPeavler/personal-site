@@ -24,7 +24,7 @@
   font-size: 18px;
   position: absolute;
   padding-left: 50%;
-  padding-top: 10%;
+  margin-top: -40%;
   width: 40%;
   color: #FEFAE8;
   line-height: 1.4em;
@@ -39,6 +39,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#link-section {
+  height: 100%;
 }
 
 #div1-1 {
@@ -108,4 +112,79 @@
 .circle-images:hover {
   width: 205px;
   height: 205px;
+}
+
+
+@media (max-width: 1279px) {
+
+  #hi {
+    color: magenta;
+  }
+
+  #link-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    justify-content: space-around;
+    margin: 0
+  }
+
+  .section1-div {
+    width: 100%;
+  }
+
+  #div1-1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  #sme-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #div1-2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    padding-top: 10%;
+  }
+
+  #dragon-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #div1-3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+  }
+
+  #lullaby-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #div1-4 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+  }
+
+  #dexter-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #quote,
+  .quote-swirl {
+    display: none;
+  }
+
 }
