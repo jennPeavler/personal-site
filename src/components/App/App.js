@@ -6,6 +6,7 @@ import { Me } from '../Me/Me'
 import { Dragon } from '../Dragon/Dragon'
 import { Lullaby } from '../Lullaby/Lullaby'
 import { Dexter } from '../Dexter/Dexter'
+import { Sme } from '../Sme/Sme'
 import '../../assets/styles/App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <main id='app-wrap'>
         <Switch>
-          <Route path='/me' component={Me} />
+          <Route path='/me' component={Sme} />
           <Route path='/dragon' component={Dragon} />
           <Route path='/lullaby' component={Lullaby} />
           <Route path='/dexter' component={Dexter} />
