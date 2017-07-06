@@ -21,7 +21,7 @@ export const Sme = () => {
       </header>
       <main id='lullaby-main'>
         <section>
-          <img id='picture-collage' src={require('../../assets/images/Lullaby/picture-collage.png')} />
+          <img id='sme-collage' src={require('../../assets/images/Sme/SmeBackground.jpg')} />
         </section>
       </main>
       <footer>
