@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+#sme-collage {
+  width: 100%;
+  height: auto;
+}
+
+#sme-nav-link {
+  position: absolute;
+  background: #FBFDDF;
+  font-family: 'Orbitron', sans-serif;
+  margin: 6.2% 30%;
+  font-size: 2em;
+  color: #DB501D;
+  padding-bottom: -0.5%;
+  height: 30px;
+}
