@@ -17,3 +17,60 @@
   padding-top: 4%;
   text-align: center;
 }
+
+#section2 img {
+  display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  #section2 img {
+    display: block;
+    float: right;
+    height: 250px;
+    width: 250px;
+    opacity: 0.5;
+    margin-top: 180px;
+    margin-right: 8%;
+    border: solid transparent 15px;
+    border-image: url(../images/Projects/background.jpg) 20% round;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  #synopsis-content {
+    padding-top: 4%;
+    text-align: center;
+    height: 500px;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  #section2 img {
+    height: 150px;
+    width: 150px;
+    margin-top: 230px;
+    margin-right: 10%;
+    border: solid transparent 5px;
+    border-image: url(../images/Projects/background.jpg) 20% round;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #section2 {
+    width: 100%;
+  }
+
+  .synopsis {
+    width: 100%;
+    margin-left: 18%;
+  }
+
+  #synopsis-content {
+    margin-top: 20%;
+  }
+
+  #section2 img {
+    display: none;
+  }
+}

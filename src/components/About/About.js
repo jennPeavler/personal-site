@@ -14,6 +14,7 @@ export const About = () => {
         <p>At this point of realization, I changed out of my reflecting clothes, put down my thoughts, picked up my computer and enrolled at Turing School of Software and Design to become a front end engineer.  I began school late January of 2017.  Below you will find some projects that have resulted from my studies.</p>
         <p>Please enjoy.</p>
       </article>
+      <img src='https://unemployedchemist.files.wordpress.com/2013/10/computer.jpg' />
     </section>
   )
 }
