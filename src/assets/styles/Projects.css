@@ -25,7 +25,6 @@
 table {
   width: 90%;
   border-radius: 10px;
-  /*border-spacing: 0;*/
 }
 
 thead {
@@ -201,4 +200,9 @@ td {
 .p-links:hover {
   font-weight: bold;
   letter-spacing: none;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1279px) {
+
 }
