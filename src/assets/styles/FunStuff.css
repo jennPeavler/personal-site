@@ -97,11 +97,23 @@
   outline: none;
 }
 
-.circle-images:hover {
-  width: 205px;
-  height: 205px;
+.circle-images-bottom {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  outline: none;
 }
 
 #italics {
   font-style: italic;
+}
+
+@media screen and (max-width: 1279px) {
+  .bottom-div {
+    display: none;
+  }
+  #cooking-img {
+    display: none;
+  }
+
 }

@@ -108,8 +108,8 @@
 }
 
 .circle-images:hover {
-  width: 205px;
-  height: 205px;
+  transition: all 1.5s;
+  transform: rotateY(360deg);
 }
 
 
