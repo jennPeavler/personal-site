@@ -5,6 +5,7 @@ import { About } from '../About/About'
 import { Projects } from '../Projects/Projects'
 import { SocialMedia } from '../SocialMedia/SocialMedia'
 import { FunStuff } from '../FunStuff/FunStuff'
+import { Screenshots } from '../Screenshots/Screenshots'
 
 export const MainWrapper = () => {
   return (
@@ -12,6 +13,7 @@ export const MainWrapper = () => {
       <Family />
       <About />
       <Projects />
+      {/* <Screenshots /> */}
       <SocialMedia />
       <FunStuff />
     </section>
