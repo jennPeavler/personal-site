@@ -1,6 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Coverflow from 'react-coverflow';
 
 export const Projects = () => {
+
+  const clickImage = () => {
+    console.log('I clicked the image')
+  }
+
   return (
     <section id='projects'>
       <div id='projects-box'>
@@ -87,7 +93,26 @@ export const Projects = () => {
           <p><span className='bold'>Static Comps:</span>  These projects were solo projects.  I was given static comps and was told to duplicate the comps using only HTML and CSS.  I was not given any assets and was told that I had creative license with the icons, font and color pallete.  The site had to uphold the integrity of the comp layout and had to be responsive.  I really enjoyed re-creating these comps and it was nice to let my creativity and attention to detail shine.  I also became very proficient at aquiring and manipulating images and icons.</p>
         </article>
       </div>
-      <div id='project-links-1'>
+      <Coverflow
+        width={700}
+        height={530}
+        displayQuantityOfSide={1}
+        navigation={true}
+        enableHeading={true}
+        clickable={true}
+        enableScroll={false}
+        >
+        <img id='project-slide' src={require('../../assets/images/Projects/Weatherly.png')} alt='Weatherly' data-action='https://jenn-peavler-weatherly.herokuapp.com/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/MovieTracker.png')} alt='MovieTracker' data-action='https://jenn-peavler-movie-tracker.herokuapp.com/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/Breakout.png')} alt='Breakout' data-action='https://jennpeavler.github.io/gameTime/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/PinShow.png')} alt='PinShow' data-action='https://show-me-the-pin.herokuapp.com/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/StarWars.png')} alt='Swapi Box' target='blank' data-action='https://i-like-star-wars.herokuapp.com/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/StaticComp3.png')} alt='Static Comp' data-action='https://jennpeavler.github.io/jp-comp-challenge-3/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/StaticComp2.png')} alt='Static Comp' data-action='https://jennpeavler.github.io/jp-comp-challenge-2/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/StaticComp1.png')} alt='Static Comp' data-action='https://jennpeavler.github.io/jp-comp-challenge-1/' />
+        <img id='project-slide' src={require('../../assets/images/Projects/HealthAssist.png')} alt='Health Assist' data-action='https://healthassist.herokuapp.com/' />
+      </Coverflow>
+      {/* <div id='project-links-1'>
         <img className='project-badge' src={require('../../assets/images/Projects/project-badge.svg')} />
         <div className='link-box'>
           <a className='p-links first-link' target='blank' href='https://i-like-star-wars.herokuapp.com/'>SWApi Box</a>
@@ -110,7 +135,7 @@ export const Projects = () => {
           <a className='p-links links-3' target='blank' href='https://jennpeavler.github.io/jp-comp-challenge-2/'>static cat</a>
           <a className='p-links last-link links-3' target='blank' href='https://jennpeavler.github.io/jp-comp-challenge-1/'>static meow</a>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
