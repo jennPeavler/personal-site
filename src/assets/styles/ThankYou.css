@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+#thank-you {
+  width: 100%;
+  background: #FEFAE8;
+  text-align: center;
+  color: #D13896;
+  /*color: #2E94C2;*/
+  text-shadow: 2px 2px #534250;
+  font-size: 4em;
+  font-family: 'Leckerli One', cursive;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
